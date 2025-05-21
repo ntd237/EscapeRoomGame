@@ -30,8 +30,8 @@ public class GamePanel extends JPanel implements Runnable {
 
     private void initGame() {
         walls = new ArrayList<>();
-        player = new Player(0, 0, walls); // Truyền walls vào Player
-        door = new Door(768, 608);
+        player = new Player(0, 0, walls); // Vị trí khởi tạo của người chơi
+        door = new Door(768, 608); // Vị trí cửa
         keys = new ArrayList<>();
         Random rand = new Random();
         showingDoorMessage = false;
